@@ -47,7 +47,7 @@ const ResumeViewer = () => {
 
                     <div className="flex justify-center">
                         <Document
-                            file="/Kaveesha_Sulakshana_Resume.pdf"
+                            file="/Kaveesha_Sulakshana.pdf"
                             onLoadSuccess={() => setLoading(false)}
                             className="max-w-full"
                         >
@@ -81,7 +81,7 @@ const ResumeViewer = () => {
                     </div>
 
                     <a
-                        href="/Kaveesha_Sulakshana_Resume.pdf"
+                        href="/Kaveesha_Sulakshana.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all duration-300 text-white font-medium"
